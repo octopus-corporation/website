@@ -3,16 +3,27 @@ import Logo from './Logo';
 
 function Header() {
   return (
-    <main className={styles.headerContainer}>
-      <div className={styles.logoDivision}>
-        <Logo />
+    <header className={styles.headerContainer}>
+      <div className={styles.headerWrapper}>
+        <div className={styles.logoDivision}>
+          <Logo />
+        </div>
+        <div className={styles.navigationDivision}>
+          <div>
+            <a href="http://">SOBRE</a>
+            <div className={styles.linkHoverEffect}/>
+          </div>
+          <div>
+            <a href="http://">SOLUÇÕES</a>
+            <div className={styles.linkHoverEffect}/>
+          </div>
+          <div>
+            <a href="http://">CONTATO</a>
+            <div className={styles.linkHoverEffect}/>
+          </div>
+        </div>
       </div>
-      <div className={styles.navigationDivision}>
-        <a href="http://">SOBRE</a>
-        <a href="http://">SOLUÇÕES</a>
-        <a href="http://">CONTATO</a>
-      </div>
-    </main>
+    </header>
   );
 }
 export default Header;
