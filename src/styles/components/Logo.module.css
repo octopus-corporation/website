@@ -1,0 +1,27 @@
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5rem;
+}
+.logoContainer label {
+  color: var(--title);
+  margin-left: 1rem;
+  font-size: 2.25rem;
+}
+.logoContainer span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: var(--background);
+  border: 2.5px solid var(--logo);
+  transform: rotate(134.72deg);
+}
+.logoContainer span > span {
+  position: absolute;
+  height: 2.4rem;
+  width: 2.4rem;
+  transform: rotate(-134.72deg);
+}
