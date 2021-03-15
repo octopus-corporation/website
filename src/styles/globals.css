@@ -1,0 +1,25 @@
+:root {
+  --background: #eff3f3;
+  --title: #1b1b1b;
+  --logo: #ff005dd7;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Rajdhani;
+  background-color: var(--background);
+}
+* {
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 1580px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  html {
+    font-size: 70%;
+  }
+}
