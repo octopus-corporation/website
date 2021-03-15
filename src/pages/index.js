@@ -10,7 +10,7 @@ function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <p>A octopus fornece</p>
+      <p>A Octopus fornece os principais serviços para dar um UP na sua empresa!</p>
     </div>
   );
 }
