@@ -1,0 +1,39 @@
+.introContainer {
+  width: 100%;
+  height: calc(100% - 80px);
+  display: flex;
+  justify-content: center;
+}
+.introWrapper {
+  width: 80%;
+  display: flex;
+  place-items: center;
+}
+.mainText {
+  font-size: 3.50rem;
+  margin-left: 5rem;
+  max-width: 800px;
+  margin-top: -100px;
+  position: relative;
+  z-index: 999;
+}
+.planet {
+  position: fixed;
+  width: 1500px;
+  height: 1500px;
+  background: linear-gradient(90deg, rgba(190,211,237,0) 0%, rgba(190,211,237,1) 100%);
+  -webkit-box-shadow: -11px 0px 185px -51px rgba(171,232,252,1);
+-moz-box-shadow: -11px 0px 185px -51px rgba(171,232,252,1);
+box-shadow: -11px 0px 185px -51px rgba(171,232,252,1);
+  border-radius: 50%;
+  right: -550px;
+  z-index: 1;
+  overflow: hidden;
+}
+.secondaryText {
+  font-size: 1.7rem;
+  margin-left: 5rem;
+  max-width: 300px;
+  margin-top: -10px;
+  opacity: 0.7;
+}
