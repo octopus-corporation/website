@@ -6,7 +6,7 @@ function Logo() {
       <span>
         <span></span>
       </span>
-      <label htmlFor="logoName">OCTOPUS</label>
+      <label htmlFor="logoName">Octopus</label>
     </div>
   );
 }
