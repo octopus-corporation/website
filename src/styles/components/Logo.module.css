@@ -12,6 +12,12 @@
   color: var(--title);
   margin-left: 1rem;
   font-size: 2.25rem;
+  transition: margin-left 0.5s, color 1s;
+  display: flex; 
+}
+.logoContainer label p:hover {
+  color: gray;
+  animation: rotate 0.2s ease-in-out;
 }
 .logoContainer span {
   display: flex;
@@ -28,6 +34,11 @@
   transform: rotate(360deg);
   border-radius: 50%;
 }
+.logoContainer span:hover + label {
+  margin-left: -19px;
+  color: var(--logo);
+}
+
 .logoContainer span > span {
   position: absolute;
   height: 2.4rem;
