@@ -1,6 +1,9 @@
 :root {
   --background: #eff3f3;
   --title: #1b1b1b;
+  --link: #1b1b1b;
+  --link-hover: #535353;
+  --link-hover-effect: #ff005d96;
   --logo: #ff005dd7;
 }
 html,
