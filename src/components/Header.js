@@ -22,6 +22,11 @@ function Header() {
             <div className={styles.linkHoverEffect}/>
           </div>
         </div>
+        <div className={styles.hamburguerButton}>
+          <div/>
+          <div/>
+          <div/>
+        </div>
       </div>
     </header>
   );
