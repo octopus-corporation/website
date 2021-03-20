@@ -43,4 +43,39 @@
   color: var(--link-hover);
   width: 60px;
 }
+.hamburguerButton {
+  margin-top: 25px;
+  margin-right: 50px;
+  display: none;
+  height: 40px;
+  cursor: pointer;
+} 
 
+.hamburguerButton div {
+  width: 35px;
+  height: 4px;
+  margin-top: 8px;
+  background: var(--logo);
+  transition: margin-left 0.5s;
+} 
+
+.hamburguerButton:hover div:last-child{
+  margin-left: 10px;
+} 
+.hamburguerButton:hover div:first-child{
+  margin-left: 10px;
+} 
+
+@media (max-width: 1350px) {
+  .headerWrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 950px) {
+  .navigationDivision {
+    display: none;
+  }
+  .hamburguerButton {
+    display: initial;
+  }
+}
